@@ -1,5 +1,3 @@
-// Más info en https://blog.kadenze.com/creative-technology/p5-js-crash-course-recreate-art-you-love/
-
 var maxCircleSize = 20
 var phase = 0, speed = 0.03;
 var numRows = 10;
@@ -12,7 +10,7 @@ function setup() {
   
   noStroke();
   colorA = color(253, 174, 120);
-  colorB = color(226, 129, 161):
+  colorB = color(226, 129, 161);
 }
 
 function draw() {
