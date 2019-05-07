@@ -7,7 +7,8 @@ function setup() {
 
 function draw() {
   background(127);
-  var x = width/2, y = height/2;
+  var x = width/2; 
+  var y = height/2 + sin(phase) * 50;
   phase = frameCount * speed;
   var sizeOffset = (cos(phase) + 1) * 50;
   var circleSize = sizeOffset * maxCircleSize;
