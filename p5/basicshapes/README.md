@@ -8,9 +8,7 @@ para dibujar con código.
 Primero, definimos nuestro espacio: 
 
 ˜˜˜˜
-
 createCanvas(); 
-
 ˜˜˜˜
 
 Si dejamos vacío el campo de parámetros, 
@@ -20,10 +18,8 @@ se inicia en un lienzo de 100 x 100 pixeles.
 Ubiquémonos en el centro. 
 
 ˜˜˜˜
-
 //Un punto en el centro. 
 point(50,50);
-
 ˜˜˜˜
 
 Ahora, que ya sabemos un punto. 
@@ -31,7 +27,6 @@ Ahora, que ya sabemos un punto.
 Usémoslo para definir otras figuras. 
 
 ˜˜˜˜
-
 line()
 
 triangle()
@@ -39,7 +34,6 @@ triangle()
 quad()
 
 ellipse()
-
 ˜˜˜˜
 
 Recuerda que al crear una figura, 
@@ -47,11 +41,9 @@ si la quieres arriba, debe venir
 después en el orden del código.
 
 ˜˜˜˜
-
 //Aquí va el círculo arriba. 
 rect()
 ellipse()
-
 ˜˜˜˜
 
 Así se aprende p5.js. 
